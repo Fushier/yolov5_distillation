@@ -1,0 +1,1 @@
+python train_distill.py --weights '' --cfg models/yolov5s.yaml --data data/voc.yaml --epochs 120 --batch-size 8 --device 1 --hyp data/hyp.scratch.yaml --t_weights weights/yolov5l_pre_voc.pt --d_feature -a 2.0 -b 0.0 
